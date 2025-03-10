@@ -4,21 +4,24 @@
     "description": "A simple library to add two numbers",
     "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [
-      "adder",
-      "addition",
-      "math"
+        "adder",
+        "addition",
+        "math"
     ],
     "repository": {
-      "type": "git",
-      "url": "https://github.com/Mani016/adder-library-sample.git"
+        "type": "git",
+        "url": "https://github.com/Mani016/adder-library-sample.git"
     },
     "bugs": {
-      "url": "https://github.com/Mani016/adder-library-sample/issues"
+        "url": "https://github.com/Mani016/adder-library-sample/issues"
     },
     "homepage": "https://github.com/Mani016/adder-library-sample#readme",
     "author": "Mani016 manishagupta016@gmail.com",
-    "license": "ISC"
-  }
+    "license": "ISC",
+    "dependencies": {
+        "adder-library-sample": "^1.0.0"
+    }
+}
